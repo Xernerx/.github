@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🌐 Xernerx Info Hub (Platform Bugs & Feature Suggestions)
+    url: https://info.xernerx.com
+    about: Report web platform or Discord bot bugs, vote on feature suggestions, and view the public roadmap.
+  - name: 📚 Xernerx Developer Documentation
+    url: https://docs.xernerx.com
+    about: Browse REST API v1 specs, WebSocket RPC docs, and TypeDoc references for xernerx & @xernerx/* packages.
+  - name: 💬 Discord Support Server
+    url: https://xernerx.com/discord
+    about: Get live help and support from the Xernerx Studios team and community on Discord.
+  - name: 🛡️ Report a Security Vulnerability (Private)
+    url: https://xernerx.com/security
+    about: Do not open public issues for security vulnerabilities. Report privately via security@xernerx.com.

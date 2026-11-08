@@ -1,0 +1,31 @@
+name: ✨ Feature Request
+description: Suggest an enhancement or new capability for an @xernerx/* package or repository.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for the **Xernerx Suite** or **Virtue**? You can also submit and vote on platform suggestions at **[info.xernerx.com/suggestions](https://info.xernerx.com/suggestions)**.
+  - type: input
+    id: package
+    attributes:
+      label: Target Package / Component
+      description: Which package or repository does this feature apply to?
+      placeholder: e.g. @xernerx/framework, @xernerx/commands, xernerx CLI
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What problem does this solve, or what workflow would it improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution / API Design
+      description: Describe how you envision the feature or API working.
+    validations:
+      required: true

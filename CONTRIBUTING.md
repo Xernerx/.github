@@ -1,0 +1,105 @@
+<!-- @format -->
+
+![Xernerx Banner](https://www.xernerx.com/banner.png)
+
+# Contributing to Xernerx Studios
+
+Thank you for your interest in contributing to **Xernerx Studios**! Whether you are fixing a bug in an open-source `@xernerx/*` SDK, improving TypeDoc documentation, or reporting an issue on the Xernerx Suite platform, we appreciate your help.
+
+By participating in this organization, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+---
+
+## 🧭 Understanding Our Two-Tier Repository Structure
+
+Before opening an issue or pull request, please note how repositories in the `Xernerx` organization are licensed and maintained:
+
+### 1. Open-Source Developer SDKs & Documentation (`Apache-2.0`)
+
+The following repositories are open-source under the **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** and actively accept external Pull Requests and Issues:
+
+- [`Xernerx/xernerx`](https://github.com/Xernerx/xernerx) — All-in-one Xernerx Suite SDK & CLI (`xernerx`, `create-xernerx-app`)
+- [`Xernerx/framework`](https://github.com/Xernerx/framework) — `@xernerx/framework` modular Discord.js bot framework
+- [`Xernerx/commands`](https://github.com/Xernerx/commands) — `@xernerx/commands` slash, context, & message command handler and REST sync SDK
+- [`Xernerx/extension-builder`](https://github.com/Xernerx/extension-builder) — `@xernerx/extension-builder` base extension contract
+- [`Xernerx/hooks`](https://github.com/Xernerx/hooks) — `@xernerx/hooks` HMAC-SHA256 webhook receiver & engagement cache
+- [`Xernerx/stats`](https://github.com/Xernerx/stats) — `@xernerx/stats` automated bot telemetry & statistics reporter
+- [`Xernerx/terminal`](https://github.com/Xernerx/terminal) — `@xernerx/terminal` scoped CLI logger and TTY spinner
+- [`Xernerx/websocket`](https://github.com/Xernerx/websocket) — `@xernerx/websocket` bidirectional WebSocket JSON-RPC client
+- [`Xernerx/docs`](https://github.com/Xernerx/docs) — Versioned TypeDoc documentation registry for [docs.xernerx.com](https://docs.xernerx.com)
+
+### 2. Proprietary Platform & SaaS Applications (`Xernerx Proprietary & SaaS License v1.0`)
+
+First-party hosted applications—including the **Xernerx Suite** (`*.xernerx.com`), the **Xernerx Desktop Client**, and official Discord bots (**Virtue**, **To-Do List Bot**, **Metamorphosis**, **Zodiac**)—are governed by the **[Xernerx Studios Proprietary & SaaS License v1.0](https://xernerx.com/license)**.
+
+For hosted platform bugs, feature requests, or roadmap feedback, please use our public feedback hub:
+
+- 🐛 **Report a Platform Bug:** [https://info.xernerx.com/bugs](https://info.xernerx.com/bugs)
+- 💡 **Submit a Feature Suggestion:** [https://info.xernerx.com/suggestions](https://info.xernerx.com/suggestions)
+- 🗺️ **View the Public Roadmap:** [https://info.xernerx.com/roadmap](https://info.xernerx.com/roadmap)
+
+> **Security Vulnerabilities:** Never report security vulnerabilities in public issues or pull requests. Please follow our [Security Policy](./SECURITY.md) and email **[security@xernerx.com](mailto:security@xernerx.com)**.
+
+---
+
+## 🛠️ Development Workflow for Open-Source Packages (`@xernerx/*`)
+
+### Prerequisites
+
+- **Node.js:** `>= 20.x` (LTS recommended)
+- **Package Manager:** `pnpm` (`>= 10.x` / `11.x`) — **Never use `npm install` or `yarn`** (`pnpm-lock.yaml` is strictly enforced).
+- **TypeScript:** Strict mode (`"strict": true`) across all packages.
+
+### Getting Started
+
+1. **Fork & Clone** the target package repository (e.g. `Xernerx/framework`).
+2. **Create a Feature Branch** off `main`:
+   ```bash
+   git checkout -b feat/your-feature-name
+   ```
+3. **Install Dependencies** using `pnpm`:
+   ```bash
+   pnpm install
+   ```
+4. **Build & Typecheck** the package (`tsup` + `tsc`):
+   ```bash
+   pnpm build
+   ```
+
+---
+
+## 📏 Coding & Formatting Standards
+
+All Xernerx repositories enforce consistent formatting via **Prettier**:
+
+1. **File Header Comment:**
+   - Every TypeScript/JavaScript/CSS file **must** begin with `/** @format */`.
+   - Every Markdown file (`.md`) **must** begin with `<!-- @format -->`.
+2. **Prettier Configuration (`.prettierrc`):**
+   - Tabs for indentation (`useTabs: true`, `tabWidth: 4`)
+   - Single quotes (`singleQuote: true`)
+   - Semicolons required (`semi: true`)
+   - Print width `200`, `es5` trailing commas
+3. **Architecture & Documentation Conventions:**
+   - Follow the existing class-based design (`extends XernerxClient`, `extends ExtensionBuilder`, `extends SlashCommandBuilder`, `extends Terminal`, etc.).
+   - Document all public classes, methods, parameters, and return types with comprehensive TSDoc/JSDoc comments (`@param`, `@returns`, `@example`) so [TypeDoc](https://typedoc.org/) generates accurate `docs.json` reflections for [docs.xernerx.com](https://docs.xernerx.com).
+
+---
+
+## 🚀 Submitting a Pull Request
+
+1. Ensure your branch builds cleanly (`pnpm build`) and adheres to all Prettier formatting rules.
+2. Open a Pull Request against the `main` branch of the repository.
+3. Fill out the Pull Request template clearly describing:
+   - What changed and why.
+   - Any breaking changes or migration notes.
+   - How the changes were tested.
+4. **Contributor License Agreement (Apache-2.0 Section 5):** By submitting a Contribution to any Apache-2.0 licensed Xernerx repository, you agree that your Contribution is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+---
+
+## 💬 Need Help?
+
+- **Documentation:** [https://docs.xernerx.com](https://docs.xernerx.com)
+- **FAQ:** [https://info.xernerx.com/faq](https://info.xernerx.com/faq)
+- **Discord Community & Support:** [https://xernerx.com/discord](https://xernerx.com/discord)
