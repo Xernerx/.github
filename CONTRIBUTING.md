@@ -19,13 +19,13 @@ Before opening an issue or pull request, please note how repositories in the `Xe
 The following repositories are open-source under the **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** and actively accept external Pull Requests and Issues:
 
 - [`Xernerx/xernerx`](https://github.com/Xernerx/xernerx) — All-in-one Xernerx Suite SDK & CLI (`xernerx`, `create-xernerx-app`)
-- [`Xernerx/framework`](https://github.com/Xernerx/framework) — `@xernerx/framework` modular Discord.js bot framework
-- [`Xernerx/commands`](https://github.com/Xernerx/commands) — `@xernerx/commands` slash, context, & message command handler and REST sync SDK
-- [`Xernerx/extension-builder`](https://github.com/Xernerx/extension-builder) — `@xernerx/extension-builder` base extension contract
-- [`Xernerx/hooks`](https://github.com/Xernerx/hooks) — `@xernerx/hooks` HMAC-SHA256 webhook receiver & engagement cache
-- [`Xernerx/stats`](https://github.com/Xernerx/stats) — `@xernerx/stats` automated bot telemetry & statistics reporter
-- [`Xernerx/terminal`](https://github.com/Xernerx/terminal) — `@xernerx/terminal` scoped CLI logger and TTY spinner
-- [`Xernerx/websocket`](https://github.com/Xernerx/websocket) — `@xernerx/websocket` bidirectional WebSocket JSON-RPC client
+- [`Xernerx/xernerx-framework`](https://github.com/Xernerx/xernerx-framework) — `@xernerx/framework` modular Discord.js bot framework
+- [`Xernerx/xernerx-commands`](https://github.com/Xernerx/xernerx-commands) — `@xernerx/commands` slash, context, & message command handler and REST sync SDK
+- [`Xernerx/xernerx-extension-builder`](https://github.com/Xernerx/xernerx-extension-builder) — `@xernerx/extension-builder` base extension contract
+- [`Xernerx/xernerx-hooks`](https://github.com/Xernerx/xernerx-hooks) — `@xernerx/hooks` HMAC-SHA256 webhook receiver & engagement cache
+- [`Xernerx/xernerx-stats`](https://github.com/Xernerx/xernerx-stats) — `@xernerx/stats` automated bot telemetry & statistics reporter
+- [`Xernerx/xernerx-terminal`](https://github.com/Xernerx/xernerx-terminal) — `@xernerx/terminal` scoped CLI logger and TTY spinner
+- [`Xernerx/xernerx-websocket`](https://github.com/Xernerx/xernerx-websocket) — `@xernerx/websocket` bidirectional WebSocket JSON-RPC client
 - [`Xernerx/docs`](https://github.com/Xernerx/docs) — Versioned TypeDoc documentation registry for [docs.xernerx.com](https://docs.xernerx.com)
 
 ### 2. Proprietary Platform & SaaS Applications (`Xernerx Proprietary & SaaS License v1.0`)
