@@ -59,6 +59,7 @@ All public developer packages published by **Xernerx Studios** on npm are open-s
 | **[`@xernerx/terminal`](https://www.npmjs.com/package/@xernerx/terminal)**                   | [`Xernerx/xernerx-terminal`](https://github.com/Xernerx/xernerx-terminal)                   | [Docs](https://docs.xernerx.com/packages/@xernerx/terminal)          | Scoped CLI logger, structured ANSI formatter, and interactive TTY spinner (`Terminal`, `terminal`, `Spinner`).                             |
 | **[`@xernerx/websocket`](https://www.npmjs.com/package/@xernerx/websocket)**                 | [`Xernerx/xernerx-websocket`](https://github.com/Xernerx/xernerx-websocket)                 | [Docs](https://docs.xernerx.com/packages/@xernerx/websocket)         | Promise-based real-time bidirectional JSON-RPC client for the Xernerx WebSocket Gateway (`XernerxWebsocket`).                              |
 | **[`@xernerx/docs`](https://docs.xernerx.com/packages)**                                     | [`Xernerx/docs`](https://github.com/Xernerx/docs)                                           | [Docs](https://docs.xernerx.com)                                     | Versioned TypeDoc AST (`docs.json`) and static HTML reference registry powering `docs.xernerx.com`.                                        |
+| **[`@xernerx/examples`](https://github.com/Xernerx/examples)**                               | [`Xernerx/examples`](https://github.com/Xernerx/examples)                                   | [Docs](https://docs.xernerx.com/packages)                            | Official TypeScript (`@xernerx/*`) and JavaScript (`xernerx`) Discord bot starter templates and sharding examples.                         |
 
 ---
 
@@ -77,7 +78,7 @@ All public developer packages published by **Xernerx Studios** on npm are open-s
 Xernerx Studios operates a transparent **two-tier licensing model**:
 
 1. **Tier 1 — [Xernerx Studios Proprietary & SaaS License v1.0](https://xernerx.com/license):** Governs the Xernerx Suite web applications (`*.xernerx.com`), backend gateways, the Xernerx Desktop Client, and official hosted Discord bots (`Virtue`, `To-Do List Bot`, `Metamorphosis`, `Zodiac`).
-2. **Tier 2 — [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0):** Governs all public open-source SDKs (`xernerx` & `@xernerx/*`) and developer documentation (`Xernerx/docs`).
+2. **Tier 2 — [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0):** Governs all public open-source SDKs (`xernerx` & `@xernerx/*`), developer documentation (`Xernerx/docs`), and starter examples (`Xernerx/examples`).
 
 - 🔒 **Security Policy & Responsible Disclosure:** [xernerx.com/security](https://xernerx.com/security) (`security@xernerx.com`)
 - 📜 **Legal Policies:** [License Overview](https://xernerx.com/license) • [Terms of Service](https://xernerx.com/terms) • [Privacy Policy](https://xernerx.com/privacy) • [Cookie Policy](https://xernerx.com/cookies)

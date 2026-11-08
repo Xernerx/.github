@@ -14,14 +14,14 @@ For our full interactive Security & Licensing overview, visit **[https://xernerx
 
 Security updates and patches are actively applied to the latest **Production (`latest`)** and **Canary (`canary`)** deployments across our ecosystem:
 
-| Target / Workspace | Supported Versions | Security Updates |
-| :--- | :--- | :--- |
-| **Xernerx Web Suite** (`*.xernerx.com` — `www`, `app`, `account`, `portal`, `store`, `docs`, `info`, `blog`, `admin`, `hosting`) | Production & Canary (`v5`) | ✅ Active |
-| **Core Backend & Media** (`api.xernerx.com`, `cdn.xernerx.com`, `haste.xernerx.com`, `services/websocket`) | `/v1/*`, `/secure/*`, `ws` | ✅ Active |
-| **Xernerx Desktop & Mobile Clients** (`clients/desktop`, `clients/mobile` — Stable & Canary channels) | `>= 2.x` | ✅ Active |
-| **Official Discord Bots** (`Virtue`, `Metamorphosis`, `Zodiac`, `To-Do List Bot`, `Xernerx App`, `Xernerx Bot`) | Current Hosted Production | ✅ Active |
-| **Open-Source SDKs & Docs** (`xernerx`, `@xernerx/framework`, `@xernerx/commands`, `@xernerx/extension-builder`, `@xernerx/hooks`, `@xernerx/stats`, `@xernerx/terminal`, `@xernerx/websocket`, `Xernerx/docs`) | Latest Minor Release | ✅ Active |
-| **Legacy / Deprecated Generations** (`v1` – `v4`) | `< 5.0.0` | ❌ End of Life |
+| Target / Workspace                                                                                                                                                                                                                            | Supported Versions         | Security Updates |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------- | :--------------- |
+| **Xernerx Web Suite** (`*.xernerx.com` — `www`, `app`, `account`, `portal`, `store`, `docs`, `info`, `blog`, `admin`, `hosting`)                                                                                                              | Production & Canary (`v5`) | ✅ Active        |
+| **Core Backend & Media** (`api.xernerx.com`, `cdn.xernerx.com`, `haste.xernerx.com`, `services/websocket`)                                                                                                                                    | `/v1/*`, `/secure/*`, `ws` | ✅ Active        |
+| **Xernerx Desktop & Mobile Clients** (`clients/desktop`, `clients/mobile` — Stable & Canary channels)                                                                                                                                         | `>= 2.x`                   | ✅ Active        |
+| **Official Discord Bots** (`Virtue`, `Metamorphosis`, `Zodiac`, `To-Do List Bot`, `Xernerx App`, `Xernerx Bot`)                                                                                                                               | Current Hosted Production  | ✅ Active        |
+| **Open-Source SDKs, Examples & Docs** (`xernerx`, `@xernerx/framework`, `@xernerx/commands`, `@xernerx/extension-builder`, `@xernerx/hooks`, `@xernerx/stats`, `@xernerx/terminal`, `@xernerx/websocket`, `Xernerx/examples`, `Xernerx/docs`) | Latest Minor Release       | ✅ Active        |
+| **Legacy / Deprecated Generations** (`v1` – `v4`)                                                                                                                                                                                             | `< 5.0.0`                  | ❌ End of Life   |
 
 ---
 

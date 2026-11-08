@@ -4,7 +4,7 @@
 
 ## 🧭 Overview
 
-`d:\Xernerx Studios\.github` (`github.com/Xernerx/.github`) is the **GitHub Organization profile and community health repository** for **Xernerx Studios**. All repositories in the `Xernerx` organization (`suite`, `virtue`, `docs`, `xernerx`, `framework`, `commands`, `extension-builder`, `hooks`, `stats`, `terminal`, `websocket`) inherit their default community standards and issue/PR templates from this repository.
+`d:\Xernerx Studios\.github` (`github.com/Xernerx/.github`) is the **GitHub Organization profile and community health repository** for **Xernerx Studios**. All repositories in the `Xernerx` organization (`suite`, `virtue`, `docs`, `examples`, `xernerx`, `framework`, `commands`, `extension-builder`, `hooks`, `stats`, `terminal`, `websocket`) inherit their default community standards and issue/PR templates from this repository.
 
 ## 🗂️ Canonical Files
 
@@ -20,5 +20,5 @@
 
 ## ⚠️ Important Rules
 
-1. **No Shadowing in Sibling Repositories:** Do not create duplicate `SECURITY.md`, `CODE_OF_CONDUCT.md`, or `CONTRIBUTING.md` files inside `../suite`, `../apps/*`, `../packages/*`, or `../docs`. Keep them centralized here so GitHub inherits them across all repositories.
+1. **No Shadowing in Sibling Repositories:** Do not create duplicate `SECURITY.md`, `CODE_OF_CONDUCT.md`, or `CONTRIBUTING.md` files inside `../suite`, `../apps/*`, `../packages/*`, `../docs`, or `../examples`. Keep them centralized here so GitHub inherits them across all repositories.
 2. **Keep Synced with `suite/apps/www` Policy Pages:** Whenever updating ecosystem apps, SDK packages, bots, licensing, or security policies here, ensure `../suite/apps/www/src/app/{terms,privacy,cookies,security,license}/page.tsx` and `../suite/packages/lib/src/dictionaries/en-GB.json` remain 100% aligned.
