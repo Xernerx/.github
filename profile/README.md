@@ -28,17 +28,19 @@
 
 **Xernerx Studios** builds an interconnected ecosystem of web platforms, desktop clients, verified Discord applications, and open-source TypeScript developer toolkits:
 
-| Platform | URL | Description |
-| :--- | :--- | :--- |
-| **Xernerx Home** | [`xernerx.com`](https://xernerx.com) | Official showcase, applications catalog, legal & security governance, and [Desktop Client download](https://xernerx.com/download). |
-| **Xernerx App** | [`app.xernerx.com`](https://app.xernerx.com) | Unified dashboard, bot & server directory explorer, Virtue leveling studio, leaderboards, and live `/overlay`. |
-| **Account Hub** | [`account.xernerx.com`](https://account.xernerx.com) | Identity & privacy settings (`public` / `limited` / `private`), OAuth connections, QR sign-in, and billing history. |
-| **Developer Portal** | [`portal.xernerx.com`](https://portal.xernerx.com) | Team organizations, bot publishing, slash command synchronization, API tokens, and signed HMAC-SHA256 webhooks. |
-| **Documentation** | [`docs.xernerx.com`](https://docs.xernerx.com) | Interactive REST API v1 playground, WebSocket RPC gateway specs, CDN streaming guides, and TypeDoc package references. |
-| **Store** | [`store.xernerx.com`](https://store.xernerx.com) | Subscriptions, Virtue Server Boosts, Personal XP Boosts, cosmetic profile themes, and gifting. |
-| **Info & Support Hub** | [`info.xernerx.com`](https://info.xernerx.com) | Public roadmap, feature suggestions, bug tracker, interactive FAQ, live status telemetry, and release changelogs. |
-| **Xernerx Haste** | [`haste.xernerx.com`](https://haste.xernerx.com) | First-party Hastebin-compatible code pastebin with syntax highlighting, TTL expirations, and `/raw/[id]` streaming. |
-| **Xernerx Blog** | [`blog.xernerx.com`](https://blog.xernerx.com) | Official engineering deep-dives, security advisories, product announcements, and `/rss.xml` feed. |
+| Platform                | URL                                                  | Description                                                                                                                        |
+| :---------------------- | :--------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Xernerx Home**        | [`xernerx.com`](https://xernerx.com)                 | Official showcase, applications catalog, legal & security governance, and [Desktop Client download](https://xernerx.com/download). |
+| **Xernerx App**         | [`app.xernerx.com`](https://app.xernerx.com)         | Unified dashboard, bot & server directory explorer, Virtue leveling studio, leaderboards, and live `/overlay`.                     |
+| **Account Hub**         | [`account.xernerx.com`](https://account.xernerx.com) | Identity & privacy settings (`public` / `limited` / `private`), OAuth connections, QR sign-in, and billing history.                |
+| **Developer Portal**    | [`portal.xernerx.com`](https://portal.xernerx.com)   | Team organizations, bot publishing, slash command synchronization, API tokens, and signed HMAC-SHA256 webhooks.                    |
+| **Documentation**       | [`docs.xernerx.com`](https://docs.xernerx.com)       | Interactive REST API v1 playground, WebSocket RPC gateway specs, CDN streaming guides, and TypeDoc package references.             |
+| **Store**               | [`store.xernerx.com`](https://store.xernerx.com)     | Subscriptions, Virtue Server Boosts, Personal XP Boosts, cosmetic profile themes, and gifting.                                     |
+| **Info & Support Hub**  | [`info.xernerx.com`](https://info.xernerx.com)       | Public roadmap, feature suggestions, bug tracker, interactive FAQ, live status telemetry, and release changelogs.                  |
+| **Xernerx CDN**         | [`cdn.xernerx.com`](https://cdn.xernerx.com)         | Private & public media storage pipeline (`public` / `limited` / `private`) with `/raw/[id]` streaming.                             |
+| **Xernerx Haste**       | [`haste.xernerx.com`](https://haste.xernerx.com)     | First-party Hastebin-compatible code pastebin with syntax highlighting, TTL expirations, and `/raw/[id]` streaming.                |
+| **Xernerx Blog**        | [`blog.xernerx.com`](https://blog.xernerx.com)       | Official engineering deep-dives, security advisories, product announcements, and `/rss.xml` feed.                                  |
+| **Xernerx API Gateway** | [`api.xernerx.com`](https://api.xernerx.com)         | Central REST (`/v1/*`, `/secure/*`) & WebSocket RPC backend gateway, embeddable widgets, and webhook dispatcher.                   |
 
 ---
 
@@ -46,17 +48,17 @@
 
 All public developer packages published by **Xernerx Studios** on npm are open-source under the **[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)**:
 
-| Package | Repository | Documentation | Description |
-| :--- | :--- | :--- | :--- |
-| **[`xernerx`](https://www.npmjs.com/package/xernerx)** | [`Xernerx/xernerx`](https://github.com/Xernerx/xernerx) | [Docs](https://docs.xernerx.com/packages/xernerx) | All-in-one Xernerx Suite SDK, CLI (`xernerx` & `create-xernerx-app`), and Discord Bot Framework meta-package. |
-| **[`@xernerx/framework`](https://www.npmjs.com/package/@xernerx/framework)** | [`Xernerx/xernerx-framework`](https://github.com/Xernerx/xernerx-framework) | [Docs](https://docs.xernerx.com/packages/@xernerx/framework) | Modular class-based Discord.js framework (`XernerxClient`, `XernerxShardClient`, builders, handlers, validators, `XernerxUser`). |
-| **[`@xernerx/commands`](https://www.npmjs.com/package/@xernerx/commands)** | [`Xernerx/xernerx-commands`](https://github.com/Xernerx/xernerx-commands) | [Docs](https://docs.xernerx.com/packages/@xernerx/commands) | Developer diagnostic commands (`xc!`) & Slash/Context/Message Commands REST API synchronization SDK (`XernerxCommands`, `CommandsClient`). |
-| **[`@xernerx/extension-builder`](https://www.npmjs.com/package/@xernerx/extension-builder)** | [`Xernerx/xernerx-extension-builder`](https://github.com/Xernerx/xernerx-extension-builder) | [Docs](https://docs.xernerx.com/packages/@xernerx/extension-builder) | Official base `ExtensionBuilder` class and lifecycle contract (`main`, `defer`) for `@xernerx/framework` extensions. |
-| **[`@xernerx/hooks`](https://www.npmjs.com/package/@xernerx/hooks)** | [`Xernerx/xernerx-hooks`](https://github.com/Xernerx/xernerx-hooks) | [Docs](https://docs.xernerx.com/packages/@xernerx/hooks) | HMAC-SHA256 webhook receiver (`X-Xernerx-Signature`) & zero-database engagement cache (`voted`, `reviewed`, `tipped`) with REST fallback. |
-| **[`@xernerx/stats`](https://www.npmjs.com/package/@xernerx/stats)** | [`Xernerx/xernerx-stats`](https://github.com/Xernerx/xernerx-stats) | [Docs](https://docs.xernerx.com/packages/@xernerx/stats) | Automated Discord bot telemetry extension, shard aggregator, and Stats REST API SDK (`XernerxStats`, `StatsClient`). |
-| **[`@xernerx/terminal`](https://www.npmjs.com/package/@xernerx/terminal)** | [`Xernerx/xernerx-terminal`](https://github.com/Xernerx/xernerx-terminal) | [Docs](https://docs.xernerx.com/packages/@xernerx/terminal) | Scoped CLI logger, structured ANSI formatter, and interactive TTY spinner (`Terminal`, `terminal`, `Spinner`). |
-| **[`@xernerx/websocket`](https://www.npmjs.com/package/@xernerx/websocket)** | [`Xernerx/xernerx-websocket`](https://github.com/Xernerx/xernerx-websocket) | [Docs](https://docs.xernerx.com/packages/@xernerx/websocket) | Promise-based real-time bidirectional JSON-RPC client for the Xernerx WebSocket Gateway (`XernerxWebsocket`). |
-| **[`@xernerx/docs`](https://docs.xernerx.com/packages)** | [`Xernerx/docs`](https://github.com/Xernerx/docs) | [Docs](https://docs.xernerx.com) | Versioned TypeDoc AST (`docs.json`) and static HTML reference registry powering `docs.xernerx.com`. |
+| Package                                                                                      | Repository                                                                                  | Documentation                                                        | Description                                                                                                                                |
+| :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| **[`xernerx`](https://www.npmjs.com/package/xernerx)**                                       | [`Xernerx/xernerx`](https://github.com/Xernerx/xernerx)                                     | [Docs](https://docs.xernerx.com/packages/xernerx)                    | All-in-one Xernerx Suite SDK, CLI (`xernerx` & `create-xernerx-app`), and Discord Bot Framework meta-package.                              |
+| **[`@xernerx/framework`](https://www.npmjs.com/package/@xernerx/framework)**                 | [`Xernerx/xernerx-framework`](https://github.com/Xernerx/xernerx-framework)                 | [Docs](https://docs.xernerx.com/packages/@xernerx/framework)         | Modular class-based Discord.js framework (`XernerxClient`, `XernerxShardClient`, builders, handlers, validators, `XernerxUser`).           |
+| **[`@xernerx/commands`](https://www.npmjs.com/package/@xernerx/commands)**                   | [`Xernerx/xernerx-commands`](https://github.com/Xernerx/xernerx-commands)                   | [Docs](https://docs.xernerx.com/packages/@xernerx/commands)          | Developer diagnostic commands (`xc!`) & Slash/Context/Message Commands REST API synchronization SDK (`XernerxCommands`, `CommandsClient`). |
+| **[`@xernerx/extension-builder`](https://www.npmjs.com/package/@xernerx/extension-builder)** | [`Xernerx/xernerx-extension-builder`](https://github.com/Xernerx/xernerx-extension-builder) | [Docs](https://docs.xernerx.com/packages/@xernerx/extension-builder) | Official base `ExtensionBuilder` class and lifecycle contract (`main`, `defer`) for `@xernerx/framework` extensions.                       |
+| **[`@xernerx/hooks`](https://www.npmjs.com/package/@xernerx/hooks)**                         | [`Xernerx/xernerx-hooks`](https://github.com/Xernerx/xernerx-hooks)                         | [Docs](https://docs.xernerx.com/packages/@xernerx/hooks)             | HMAC-SHA256 webhook receiver (`X-Xernerx-Signature`) & zero-database engagement cache (`voted`, `reviewed`, `tipped`) with REST fallback.  |
+| **[`@xernerx/stats`](https://www.npmjs.com/package/@xernerx/stats)**                         | [`Xernerx/xernerx-stats`](https://github.com/Xernerx/xernerx-stats)                         | [Docs](https://docs.xernerx.com/packages/@xernerx/stats)             | Automated Discord bot telemetry extension, shard aggregator, and Stats REST API SDK (`XernerxStats`, `StatsClient`).                       |
+| **[`@xernerx/terminal`](https://www.npmjs.com/package/@xernerx/terminal)**                   | [`Xernerx/xernerx-terminal`](https://github.com/Xernerx/xernerx-terminal)                   | [Docs](https://docs.xernerx.com/packages/@xernerx/terminal)          | Scoped CLI logger, structured ANSI formatter, and interactive TTY spinner (`Terminal`, `terminal`, `Spinner`).                             |
+| **[`@xernerx/websocket`](https://www.npmjs.com/package/@xernerx/websocket)**                 | [`Xernerx/xernerx-websocket`](https://github.com/Xernerx/xernerx-websocket)                 | [Docs](https://docs.xernerx.com/packages/@xernerx/websocket)         | Promise-based real-time bidirectional JSON-RPC client for the Xernerx WebSocket Gateway (`XernerxWebsocket`).                              |
+| **[`@xernerx/docs`](https://docs.xernerx.com/packages)**                                     | [`Xernerx/docs`](https://github.com/Xernerx/docs)                                           | [Docs](https://docs.xernerx.com)                                     | Versioned TypeDoc AST (`docs.json`) and static HTML reference registry powering `docs.xernerx.com`.                                        |
 
 ---
 
@@ -66,6 +68,7 @@ All public developer packages published by **Xernerx Studios** on npm are open-s
 - **[To-Do List Bot](https://xernerx.com/applications)** — Collaborative personal & server task boards directly inside Discord.
 - **[Metamorphosis](https://xernerx.com/applications)** — Automated ephemeral "Join-to-Create" dynamic voice channels and room management.
 - **[Zodiac](https://xernerx.com/applications)** — Daily horoscopes, astrological charts, and server compatibility insights.
+- **[Xernerx App & Xernerx Bot](https://app.xernerx.com)** — Official ecosystem support ticket intake, live documentation lookup, status telemetry, and bot/server directory synchronization daemons.
 
 ---
 
