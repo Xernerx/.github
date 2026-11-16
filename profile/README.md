@@ -66,6 +66,7 @@ All public developer packages published by **Xernerx Studios** on npm are open-s
 ## 🤖 Official Discord Applications
 
 - **[Virtue](https://xernerx.com/applications/virtue)** — Next-generation global & per-server Discord leveling bot featuring Text & Voice XP progression, Dynamic Hoist Roles, `/boost` multipliers, automated cycle resets (`daily`, `weekly`, `monthly`, `yearly`), and customizable `/level` rank cards.
+- **[YourApps](https://xernerx.com/applications)** — Discord-native forms, staff recruitment, and community applications bot featuring interactive modals, resumable drafts, Apply panels, and automated role & archive review workflows.
 - **[To-Do List Bot](https://xernerx.com/applications)** — Collaborative personal & server task boards directly inside Discord.
 - **[Metamorphosis](https://xernerx.com/applications)** — Automated ephemeral "Join-to-Create" dynamic voice channels and room management.
 - **[Zodiac](https://xernerx.com/applications)** — Daily horoscopes, astrological charts, and server compatibility insights.
@@ -77,7 +78,7 @@ All public developer packages published by **Xernerx Studios** on npm are open-s
 
 Xernerx Studios operates a transparent **two-tier licensing model**:
 
-1. **Tier 1 — [Xernerx Studios Proprietary & SaaS License v1.0](https://xernerx.com/license):** Governs the Xernerx Suite web applications (`*.xernerx.com`), backend gateways, the Xernerx Desktop Client, and official hosted Discord bots (`Virtue`, `To-Do List Bot`, `Metamorphosis`, `Zodiac`).
+1. **Tier 1 — [Xernerx Studios Proprietary & SaaS License v1.0](https://xernerx.com/license):** Governs the Xernerx Suite web applications (`*.xernerx.com`), backend gateways, the Xernerx Desktop Client, and official hosted Discord bots (`Virtue`, `YourApps`, `To-Do List Bot`, `Metamorphosis`, `Zodiac`).
 2. **Tier 2 — [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0):** Governs all public open-source SDKs (`xernerx` & `@xernerx/*`), developer documentation (`Xernerx/docs`), and starter examples (`Xernerx/examples`).
 
 - 🔒 **Security Policy & Responsible Disclosure:** [xernerx.com/security](https://xernerx.com/security) (`security@xernerx.com`)

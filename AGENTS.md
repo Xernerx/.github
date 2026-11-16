@@ -16,7 +16,7 @@
 - [`SUPPORT.md`](./SUPPORT.md): Inherited support routing banner for New Issue / PR views.
 - [`FUNDING.yml`](./FUNDING.yml): Organization sponsor links (`store.xernerx.com`, `xernerx.com`).
 - [`PULL_REQUEST_TEMPLATE.md`](./PULL_REQUEST_TEMPLATE.md) & [`ISSUE_TEMPLATE/`](./ISSUE_TEMPLATE): Default PR checklist and YAML issue forms (`bug_report.yml`, `feature_request.yml`, `config.yml`).
-- [`LICENSE`](./LICENSE): `Apache-2.0` license.
+- [`LICENSE`](./LICENSE): `Xernerx Studios Proprietary & SaaS License v1.0`.
 
 ## ⚠️ Important Rules
 
