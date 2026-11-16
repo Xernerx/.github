@@ -19,7 +19,7 @@ Security updates and patches are actively applied to the latest **Production (`l
 | **Xernerx Web Suite** (`*.xernerx.com` — `www`, `app`, `account`, `portal`, `store`, `docs`, `info`, `blog`, `admin`, `hosting`)                                                                                                              | Production & Canary (`v5`) | ✅ Active        |
 | **Core Backend & Media** (`api.xernerx.com`, `cdn.xernerx.com`, `haste.xernerx.com`, `services/websocket`)                                                                                                                                    | `/v1/*`, `/secure/*`, `ws` | ✅ Active        |
 | **Xernerx Desktop & Mobile Clients** (`clients/desktop`, `clients/mobile` — Stable & Canary channels)                                                                                                                                         | `>= 2.x`                   | ✅ Active        |
-| **Official Discord Bots** (`Virtue`, `Metamorphosis`, `Zodiac`, `To-Do List Bot`, `Xernerx App`, `Xernerx Bot`)                                                                                                                               | Current Hosted Production  | ✅ Active        |
+| **Official Discord Bots** (`Virtue`, `YourApps`, `Metamorphosis`, `Zodiac`, `To-Do List Bot`, `Xernerx App`, `Xernerx Bot`)                                                                                                                   | Current Hosted Production  | ✅ Active        |
 | **Open-Source SDKs, Examples & Docs** (`xernerx`, `@xernerx/framework`, `@xernerx/commands`, `@xernerx/extension-builder`, `@xernerx/hooks`, `@xernerx/stats`, `@xernerx/terminal`, `@xernerx/websocket`, `Xernerx/examples`, `Xernerx/docs`) | Latest Minor Release       | ✅ Active        |
 | **Legacy / Deprecated Generations** (`v1` – `v4`)                                                                                                                                                                                             | `< 5.0.0`                  | ❌ End of Life   |
 
@@ -38,7 +38,7 @@ If you discover a security vulnerability anywhere in the Xernerx ecosystem, plea
 
 To help us triage and resolve the issue as quickly as possible, please include:
 
-1. **Affected Component:** The specific subdomain (e.g., `api.xernerx.com`, `portal.xernerx.com`, `haste.xernerx.com`), bot (`Virtue`, `Xernerx App`), Desktop Client version, or NPM package (`@xernerx/*`).
+1. **Affected Component:** The specific subdomain (e.g., `api.xernerx.com`, `portal.xernerx.com`, `haste.xernerx.com`), bot (`Virtue`, `YourApps`, `Xernerx App`), Desktop Client version, or NPM package (`@xernerx/*`).
 2. **Vulnerability Type:** e.g., authentication/authorization bypass, IDOR, SSRF, XSS, CSRF, token leakage, or privilege escalation.
 3. **Step-by-Step Reproduction:** Clear instructions, HTTP request/response samples, or a minimal proof-of-concept (PoC) demonstrating the issue.
 4. **Impact Assessment:** What an attacker could realistically achieve and which privacy tier (`public`, `limited`, or `private`) is affected.

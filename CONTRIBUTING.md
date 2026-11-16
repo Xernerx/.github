@@ -32,7 +32,7 @@ The following repositories are open-source under the **[Apache License 2.0](http
 
 ### 2. Proprietary Platform & SaaS Applications (`Xernerx Proprietary & SaaS License v1.0`)
 
-First-party hosted applications—including the **Xernerx Suite** (`Xernerx/suite` — all 13 `*.xernerx.com` web apps, `services/*`, and `clients/desktop` / `clients/mobile`) and official Discord bots (**Virtue** in `Xernerx/virtue`, **To-Do List Bot**, **Metamorphosis**, **Zodiac**, **Xernerx App**, **Xernerx Bot**)—are governed by the **[Xernerx Studios Proprietary & SaaS License v1.0](https://xernerx.com/license)**.
+First-party hosted applications—including the **Xernerx Suite** (`Xernerx/suite` — all 13 `*.xernerx.com` web apps, `services/*`, and `clients/desktop` / `clients/mobile`) and official Discord bots (**Virtue** in `Xernerx/virtue`, **YourApps** in `Xernerx/yourapps`, **To-Do List Bot**, **Metamorphosis**, **Zodiac**, **Xernerx App**, **Xernerx Bot**)—are governed by the **[Xernerx Studios Proprietary & SaaS License v1.0](https://xernerx.com/license)**.
 
 For hosted platform bugs, feature requests, or roadmap feedback, please use our public feedback hub:
 

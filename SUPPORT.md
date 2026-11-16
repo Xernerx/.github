@@ -4,7 +4,7 @@
 
 # Getting Help & Support (`SUPPORT.md`)
 
-Need help with the **Xernerx Suite**, **Virtue**, or one of our open-source **`@xernerx/*` TypeScript SDKs**? Use the resources below to get fast, accurate support.
+Need help with the **Xernerx Suite**, **Virtue**, **YourApps**, or one of our open-source **`@xernerx/*` TypeScript SDKs**? Use the resources below to get fast, accurate support.
 
 ---
 
@@ -36,7 +36,7 @@ For general questions, bot setup help, code troubleshooting, or billing inquirie
 ## 🐛 Where to Report Bugs & Feature Requests
 
 - **Open-Source SDKs & Examples (`xernerx`, `@xernerx/*`, `Xernerx/examples`, `Xernerx/docs`):** Open an issue directly in the respective GitHub repository.
-- **Xernerx Web Suite, Desktop Client & Discord Bots (`Virtue`, etc.):**
+- **Xernerx Web Suite, Desktop Client & Discord Bots (`Virtue`, `YourApps`, etc.):**
     - **Bug Reports:** [https://info.xernerx.com/bugs](https://info.xernerx.com/bugs)
     - **Feature Suggestions:** [https://info.xernerx.com/suggestions](https://info.xernerx.com/suggestions)
     - **Public Roadmap:** [https://info.xernerx.com/roadmap](https://info.xernerx.com/roadmap)
