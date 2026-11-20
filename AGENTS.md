@@ -9,6 +9,7 @@
 ## 🗂️ Canonical Files
 
 - [`profile/README.md`](./profile/README.md): Public organization profile rendered on `github.com/Xernerx`.
+- [`BRAND.md`](./BRAND.md) & [`brand/`](./brand): Official Xernerx Brand & Press Kit (typography specs for **Fredoka** & **Cascadia Code**, 27-color palette & surface tokens, SVG/PNG/ICO logos, icons, banners, SDK package media kit, and [`brand/brand.json`](./brand/brand.json)).
 - [`README.md`](./README.md): Repository overview and GitHub UI surface map.
 - [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md): Inherited Contributor Covenant v2.1 Code of Conduct.
 - [`CONTRIBUTING.md`](./CONTRIBUTING.md): Inherited contribution guide covering both Tier 1 (`Xernerx Proprietary & SaaS License v1.0`) and Tier 2 (`Apache-2.0` open-source SDKs).

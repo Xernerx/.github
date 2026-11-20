@@ -15,6 +15,7 @@ This repository houses the **GitHub Organization profile** ([`profile/README.md`
 | File / Directory                                         | GitHub UI Surface                               | Purpose                                                                                                                                                                                                |
 | :------------------------------------------------------- | :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`profile/README.md`](./profile/README.md)               | **Organization Profile (`github.com/Xernerx`)** | Public overview of the Xernerx Suite ecosystem, open-source `@xernerx/*` SDKs, and official Discord applications (`Virtue`, `YourApps`, `Metamorphosis`, `Zodiac`, and `To-Do List Bot`).              |
+| [`BRAND.md`](./BRAND.md) & [`brand/`](./brand)           | **Official Brand & Press Kit**                  | Official Xernerx typography (**Fredoka** & **Cascadia Code**), 27-color palette tokens, surface tokens, logos, icons, banners, SDK package media kit, and [`brand.json`](./brand/brand.json) manifest. |
 | [`README.md`](./README.md)                               | **`📖 README` Tab**                             | Overview of this `.github` governance repository and its inherited community standards.                                                                                                                |
 | [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)             | **`🤝 Code of conduct` Tab**                    | Organization-wide Contributor Covenant v2.1 Code of Conduct and enforcement standards.                                                                                                                 |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md)                   | **`📋 Contributing` Tab**                       | Guidelines for contributing to open-source `@xernerx/*` packages (`Apache-2.0`) and reporting platform feedback.                                                                                       |
@@ -35,5 +36,6 @@ This repository houses the **GitHub Organization profile** ([`profile/README.md`
 - **Developer Portal:** [https://portal.xernerx.com](https://portal.xernerx.com)
 - **Info, Roadmap & Bug Tracker:** [https://info.xernerx.com](https://info.xernerx.com)
 - **License & Governance:** [https://xernerx.com/license](https://xernerx.com/license)
+- **Official Brand & Press Kit:** [`BRAND.md`](./BRAND.md) ([`brand.json`](./brand/brand.json))
 - **Security Overview:** [https://xernerx.com/security](https://xernerx.com/security)
 - **Discord Support Server:** [https://xernerx.com/discord](https://xernerx.com/discord)

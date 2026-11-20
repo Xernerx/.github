@@ -6,7 +6,7 @@
 
 Thank you for your interest in contributing to **Xernerx Studios**! Whether you are fixing a bug in an open-source `@xernerx/*` SDK, improving TypeDoc documentation, or reporting an issue on the Xernerx Suite platform, we appreciate your help.
 
-By participating in this organization, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md).
+By participating in this organization, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md) and, for internal staff engineers and maintainers, our **[Internal Developer Policy](https://xernerx.com/developer-policy)**.
 
 ---
 

@@ -15,6 +15,7 @@
   <a href="https://app.xernerx.com"><img src="https://img.shields.io/badge/App-app.xernerx.com-5865F2?style=for-the-badge" alt="App" /></a>
   <a href="https://docs.xernerx.com"><img src="https://img.shields.io/badge/Docs-docs.xernerx.com-informational?style=for-the-badge" alt="Documentation" /></a>
   <a href="https://portal.xernerx.com"><img src="https://img.shields.io/badge/Portal-portal.xernerx.com-success?style=for-the-badge" alt="Developer Portal" /></a>
+  <a href="https://github.com/Xernerx/.github/blob/main/BRAND.md"><img src="https://img.shields.io/badge/Brand_Kit-BRAND.md-8b7cf6?style=for-the-badge" alt="Official Brand & Press Kit" /></a>
   <a href="https://xernerx.com/discord"><img src="https://img.shields.io/badge/Discord-Join_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
@@ -81,5 +82,6 @@ Xernerx Studios operates a transparent **two-tier licensing model**:
 1. **Tier 1 — [Xernerx Studios Proprietary & SaaS License v1.0](https://xernerx.com/license):** Governs the Xernerx Suite web applications (`*.xernerx.com`), backend gateways, the Xernerx Desktop Client, and official hosted Discord bots (`Virtue`, `YourApps`, `To-Do List Bot`, `Metamorphosis`, `Zodiac`).
 2. **Tier 2 — [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0):** Governs all public open-source SDKs (`xernerx` & `@xernerx/*`), developer documentation (`Xernerx/docs`), and starter examples (`Xernerx/examples`).
 
+- 🎨 **Official Brand & Press Kit:** [github.com/Xernerx/.github/blob/main/BRAND.md](https://github.com/Xernerx/.github/blob/main/BRAND.md) ([`brand.json`](https://www.xernerx.com/brand.json))
 - 🔒 **Security Policy & Responsible Disclosure:** [xernerx.com/security](https://xernerx.com/security) (`security@xernerx.com`)
 - 📜 **Legal Policies:** [License Overview](https://xernerx.com/license) • [Terms of Service](https://xernerx.com/terms) • [Privacy Policy](https://xernerx.com/privacy) • [Cookie Policy](https://xernerx.com/cookies)
