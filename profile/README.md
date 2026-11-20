@@ -64,13 +64,13 @@ All public developer packages published by **Xernerx Studios** on npm are open-s
 
 ---
 
-## 🤖 Official Discord Applications
+## 🤖 Official Discord Bots
 
-- **[Virtue](https://xernerx.com/applications/virtue)** — Next-generation global & per-server Discord leveling bot featuring Text & Voice XP progression, Dynamic Hoist Roles, `/boost` multipliers, automated cycle resets (`daily`, `weekly`, `monthly`, `yearly`), and customizable `/level` rank cards.
-- **[YourApps](https://xernerx.com/applications)** — Discord-native forms, staff recruitment, and community applications bot featuring 13-type Modals V2 & conditional web forms, resumable drafts, auto-synced Components V2 Apply panels, consensus voting, private interview rooms, and automated role & archive workflows.
-- **[To-Do List Bot](https://xernerx.com/applications)** — Collaborative personal & server task boards directly inside Discord.
-- **[Metamorphosis](https://xernerx.com/applications)** — Automated ephemeral "Join-to-Create" dynamic voice channels and room management.
-- **[Zodiac](https://xernerx.com/applications)** — Daily horoscopes, astrological charts, and server compatibility insights.
+- **[Virtue](https://app.xernerx.com/bots/virtue)** — Next-generation global & per-server Discord leveling bot featuring Text & Voice XP progression, Dynamic Hoist Roles, `/boost` multipliers, automated cycle resets (`daily`, `weekly`, `monthly`, `yearly`), and customizable `/level` rank cards.
+- **[YourApps](https://app.xernerx.com/bots/yourapps)** — Discord-native forms, staff recruitment, and community applications bot featuring 13-type Modals V2 & conditional web forms, resumable drafts, auto-synced Components V2 Apply panels, consensus voting, private interview rooms, and automated role & archive workflows.
+- **[To-Do List Bot](https://app.xernerx.com/bots/todo)** — Collaborative personal & server task boards directly inside Discord.
+- **[Metamorphosis](https://app.xernerx.com/bots/metamorphosis)** — Automated ephemeral "Join-to-Create" dynamic voice channels and room management.
+- **[Zodiac](https://app.xernerx.com/bots/zodiac)** — Daily horoscopes, astrological charts, and server compatibility insights.
 - **[Xernerx App & Xernerx Bot](https://app.xernerx.com)** — Official ecosystem support ticket intake, live documentation lookup, status telemetry, and bot/server directory synchronization daemons.
 
 ---

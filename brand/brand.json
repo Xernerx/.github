@@ -7,6 +7,8 @@
 	"brandGuide": "https://github.com/Xernerx/.github/blob/main/BRAND.md",
 	"defaultAccent": {
 		"key": "purple",
+		"name": "Xernerx Purple (Xerple)",
+		"alias": "Xerple",
 		"hex": "#8b7cf6",
 		"rgb": "rgb(139, 124, 246)",
 		"cssVariable": "--accent"
@@ -123,7 +125,8 @@
 	"colors": [
 		{
 			"key": "purple",
-			"name": "Purple (Default Brand Accent)",
+			"name": "Purple (Xerple — Default Brand Accent)",
+			"alias": "Xerple",
 			"hex": "#8b7cf6",
 			"rgb": "rgb(139, 124, 246)",
 			"assets": {
@@ -689,7 +692,7 @@
 			}
 		}
 	],
-	"applications": [
+	"bots": [
 		{
 			"id": "virtue",
 			"name": "Virtue",
@@ -699,8 +702,7 @@
 			"primaryHex": "#f59e0b",
 			"primaryRgb": "rgb(245, 158, 11)",
 			"description": "Next-generation global & per-server Discord leveling bot featuring Text & Voice XP progression, Dynamic Hoist Roles, `/boost` multipliers, automated cycle resets, and customizable `/level` rank cards.",
-			"url": "https://www.xernerx.com/applications/virtue",
-			"directoryUrl": "https://app.xernerx.com/bots/virtue",
+			"url": "https://app.xernerx.com/bots/virtue",
 			"palette": [
 				{
 					"key": "virtue-gold",
@@ -737,14 +739,14 @@
 			],
 			"assets": {
 				"icon": {
-					"png": "https://www.xernerx.com/applications/virtue/icon.png",
-					"ico": "https://www.xernerx.com/applications/virtue/icon.ico",
-					"betaPng": "https://www.xernerx.com/applications/virtue/icon-beta.png",
-					"betaIco": "https://www.xernerx.com/applications/virtue/icon-beta.ico"
+					"png": "https://www.xernerx.com/bots/virtue/icon.png",
+					"ico": "https://www.xernerx.com/bots/virtue/icon.ico",
+					"betaPng": "https://www.xernerx.com/bots/virtue/icon-beta.png",
+					"betaIco": "https://www.xernerx.com/bots/virtue/icon-beta.ico"
 				},
 				"banner": {
-					"png": "https://www.xernerx.com/applications/virtue/banner.png",
-					"betaPng": "https://www.xernerx.com/applications/virtue/banner-beta.png"
+					"png": "https://www.xernerx.com/bots/virtue/banner.png",
+					"betaPng": "https://www.xernerx.com/bots/virtue/banner-beta.png"
 				}
 			}
 		},
@@ -757,8 +759,7 @@
 			"primaryHex": "#f97316",
 			"primaryRgb": "rgb(249, 115, 22)",
 			"description": "Discord-native forms, staff recruitment, and community applications bot featuring 13-type Modals V2 & conditional web forms, resumable drafts, auto-synced Components V2 Apply panels, consensus voting, and automated role & archive workflows.",
-			"url": "https://www.xernerx.com/applications",
-			"directoryUrl": "https://app.xernerx.com/bots/yourapps",
+			"url": "https://app.xernerx.com/bots/yourapps",
 			"palette": [
 				{
 					"key": "yourapps-orange",
@@ -795,14 +796,14 @@
 			],
 			"assets": {
 				"icon": {
-					"png": "https://www.xernerx.com/applications/yourapps/icon.png",
-					"ico": "https://www.xernerx.com/applications/yourapps/icon.ico",
-					"betaPng": "https://www.xernerx.com/applications/yourapps/icon-beta.png",
-					"betaIco": "https://www.xernerx.com/applications/yourapps/icon-beta.ico"
+					"png": "https://www.xernerx.com/bots/yourapps/icon.png",
+					"ico": "https://www.xernerx.com/bots/yourapps/icon.ico",
+					"betaPng": "https://www.xernerx.com/bots/yourapps/icon-beta.png",
+					"betaIco": "https://www.xernerx.com/bots/yourapps/icon-beta.ico"
 				},
 				"banner": {
-					"png": "https://www.xernerx.com/applications/yourapps/banner.png",
-					"betaPng": "https://www.xernerx.com/applications/yourapps/banner-beta.png"
+					"png": "https://www.xernerx.com/bots/yourapps/banner.png",
+					"betaPng": "https://www.xernerx.com/bots/yourapps/banner-beta.png"
 				}
 			}
 		},
@@ -815,8 +816,7 @@
 			"primaryHex": "#71cc2e",
 			"primaryRgb": "rgb(113, 204, 46)",
 			"description": "Collaborative Discord task boards, personal checklists, reminders, and productivity bot featuring priority tracking and seamless Xernerx Dashboard synchronization.",
-			"url": "https://www.xernerx.com/applications",
-			"directoryUrl": "https://app.xernerx.com/bots/todo",
+			"url": "https://app.xernerx.com/bots/todo",
 			"palette": [
 				{
 					"key": "todo-primary",
@@ -861,14 +861,14 @@
 			],
 			"assets": {
 				"icon": {
-					"png": "https://www.xernerx.com/applications/todo/icon.png",
-					"ico": "https://www.xernerx.com/applications/todo/icon.ico",
-					"betaPng": "https://www.xernerx.com/applications/todo/icon-beta.png",
-					"betaIco": "https://www.xernerx.com/applications/todo/icon-beta.ico"
+					"png": "https://www.xernerx.com/bots/todo/icon.png",
+					"ico": "https://www.xernerx.com/bots/todo/icon.ico",
+					"betaPng": "https://www.xernerx.com/bots/todo/icon-beta.png",
+					"betaIco": "https://www.xernerx.com/bots/todo/icon-beta.ico"
 				},
 				"banner": {
-					"png": "https://www.xernerx.com/applications/todo/banner.png",
-					"betaPng": "https://www.xernerx.com/applications/todo/banner-beta.png"
+					"png": "https://www.xernerx.com/bots/todo/banner.png",
+					"betaPng": "https://www.xernerx.com/bots/todo/banner-beta.png"
 				}
 			}
 		},
@@ -881,8 +881,7 @@
 			"primaryHex": "#8b520f",
 			"primaryRgb": "rgb(139, 82, 15)",
 			"description": "Daily horoscopes, zodiac sign profiles, cosmic compatibility readings, and automated astrology channels Discord bot by Xernerx Studios.",
-			"url": "https://www.xernerx.com/applications",
-			"directoryUrl": "https://app.xernerx.com/bots/zodiac",
+			"url": "https://app.xernerx.com/bots/zodiac",
 			"palette": [
 				{
 					"key": "zodiac-primary",
@@ -919,14 +918,14 @@
 			],
 			"assets": {
 				"icon": {
-					"png": "https://www.xernerx.com/applications/zodiac/icon.png",
-					"ico": "https://www.xernerx.com/applications/zodiac/icon.ico",
-					"betaPng": "https://www.xernerx.com/applications/zodiac/icon-beta.png",
-					"betaIco": "https://www.xernerx.com/applications/zodiac/icon-beta.ico"
+					"png": "https://www.xernerx.com/bots/zodiac/icon.png",
+					"ico": "https://www.xernerx.com/bots/zodiac/icon.ico",
+					"betaPng": "https://www.xernerx.com/bots/zodiac/icon-beta.png",
+					"betaIco": "https://www.xernerx.com/bots/zodiac/icon-beta.ico"
 				},
 				"banner": {
-					"png": "https://www.xernerx.com/applications/zodiac/banner.png",
-					"betaPng": "https://www.xernerx.com/applications/zodiac/banner-beta.png"
+					"png": "https://www.xernerx.com/bots/zodiac/banner.png",
+					"betaPng": "https://www.xernerx.com/bots/zodiac/banner-beta.png"
 				}
 			}
 		},
@@ -939,8 +938,7 @@
 			"primaryHex": "#199fd9",
 			"primaryRgb": "rgb(25, 159, 217)",
 			"description": "Dynamic temporary voice channels, automated room management, and community utility Discord bot by Xernerx Studios.",
-			"url": "https://www.xernerx.com/applications",
-			"directoryUrl": "https://app.xernerx.com/bots/metamorphosis",
+			"url": "https://app.xernerx.com/bots/metamorphosis",
 			"palette": [
 				{
 					"key": "metamorphosis-sky",
@@ -969,14 +967,14 @@
 			],
 			"assets": {
 				"icon": {
-					"png": "https://www.xernerx.com/applications/metamorphosis/icon.png",
-					"ico": "https://www.xernerx.com/applications/metamorphosis/icon.ico",
-					"betaPng": "https://www.xernerx.com/applications/metamorphosis/icon-beta.png",
-					"betaIco": "https://www.xernerx.com/applications/metamorphosis/icon-beta.ico"
+					"png": "https://www.xernerx.com/bots/metamorphosis/icon.png",
+					"ico": "https://www.xernerx.com/bots/metamorphosis/icon.ico",
+					"betaPng": "https://www.xernerx.com/bots/metamorphosis/icon-beta.png",
+					"betaIco": "https://www.xernerx.com/bots/metamorphosis/icon-beta.ico"
 				},
 				"banner": {
-					"png": "https://www.xernerx.com/applications/metamorphosis/banner.png",
-					"betaPng": "https://www.xernerx.com/applications/metamorphosis/banner-beta.png"
+					"png": "https://www.xernerx.com/bots/metamorphosis/banner.png",
+					"betaPng": "https://www.xernerx.com/bots/metamorphosis/banner-beta.png"
 				}
 			}
 		}
@@ -998,6 +996,7 @@
 			"slug": "xernerx",
 			"scope": "XRX",
 			"colorKey": "purple",
+			"colorLabel": "Purple (Xerple)",
 			"hex": "#8b7cf6",
 			"rgb": "rgb(139, 124, 246)",
 			"description": "All-in-one Xernerx Suite SDK, CLI (`xernerx`), and Discord Bot Framework meta-package.",
@@ -1019,6 +1018,7 @@
 			"slug": "framework",
 			"scope": "XF",
 			"colorKey": "indigo",
+			"colorLabel": "Indigo",
 			"hex": "#6366f1",
 			"rgb": "rgb(99, 102, 241)",
 			"description": "Modular class-based Discord.js framework (`XernerxClient`, `XernerxShardClient`, builders, handlers, validators).",
@@ -1040,6 +1040,7 @@
 			"slug": "commands",
 			"scope": "XC",
 			"colorKey": "cyan",
+			"colorLabel": "Cyan",
 			"hex": "#06b6d4",
 			"rgb": "rgb(6, 182, 212)",
 			"description": "Developer diagnostic commands (`xc!`) & Slash/Context/Message Commands REST API synchronization SDK.",
@@ -1061,6 +1062,7 @@
 			"slug": "extension-builder",
 			"scope": "XE",
 			"colorKey": "gold",
+			"colorLabel": "Gold",
 			"hex": "#f59e0b",
 			"rgb": "rgb(245, 158, 11)",
 			"description": "Official base `ExtensionBuilder` class and lifecycle contract (`main`, `defer`) for `@xernerx/framework` extensions.",
@@ -1082,6 +1084,7 @@
 			"slug": "hooks",
 			"scope": "XH",
 			"colorKey": "emerald",
+			"colorLabel": "Emerald",
 			"hex": "#10b981",
 			"rgb": "rgb(16, 185, 129)",
 			"description": "HMAC-SHA256 webhook receiver (`X-Xernerx-Signature`) & zero-database engagement cache (`voted`, `reviewed`, `tipped`).",
@@ -1103,6 +1106,7 @@
 			"slug": "stats",
 			"scope": "XS",
 			"colorKey": "coral",
+			"colorLabel": "Coral",
 			"hex": "#f43f5e",
 			"rgb": "rgb(244, 63, 94)",
 			"description": "Automated Discord bot telemetry extension, shard aggregator, and Stats REST API SDK (`XernerxStats`, `StatsClient`).",
@@ -1124,6 +1128,7 @@
 			"slug": "terminal",
 			"scope": "XT",
 			"colorKey": "magenta",
+			"colorLabel": "Magenta",
 			"hex": "#d946ef",
 			"rgb": "rgb(217, 70, 239)",
 			"description": "Scoped CLI logger, structured ANSI formatter, automatic npm update checker, and interactive TTY spinner.",
@@ -1145,6 +1150,7 @@
 			"slug": "websocket",
 			"scope": "XW",
 			"colorKey": "blue",
+			"colorLabel": "Blue",
 			"hex": "#3b82f6",
 			"rgb": "rgb(59, 130, 246)",
 			"description": "Promise-based real-time bidirectional JSON-RPC client for the Xernerx WebSocket Gateway.",

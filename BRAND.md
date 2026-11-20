@@ -26,7 +26,7 @@
 3. [Primary Brand Marks (Logos, Icons & Banners)](#-primary-brand-marks-logos-icons--banners)
 4. [Core Surface & Theme Tokens](#-core-surface--theme-tokens)
 5. [Official 27-Color Xernerx Palette](#-official-27-color-xernerx-palette)
-6. [Official Discord Applications Media Kit (`Virtue`, `YourApps`, `TDL`, `Zodiac` & `Metamorphosis`)](#-official-discord-applications-media-kit-virtue-yourapps-tdl-zodiac--metamorphosis)
+6. [Official Discord Bots Media Kit (`Virtue`, `YourApps`, `TDL`, `Zodiac` & `Metamorphosis`)](#-official-discord-bots-media-kit-virtue-yourapps-tdl-zodiac--metamorphosis)
 7. [Official SDK Package Media Kit (`@xernerx/*`)](#-official-sdk-package-media-kit-xernerx)
 8. [Brand Usage Guidelines](#-brand-usage-guidelines)
 
@@ -37,7 +37,7 @@
 - **Organization Name:** `Xernerx Studios` (short form: `Xernerx`)
 - **Platform Suite Name:** `Xernerx Suite`
 - **Official Slogan:** `1 Account, 1 Place, 1 Setup`
-- **Signature Brand Color:** **Xernerx Purple** (`#8b7cf6` / `rgb(139, 124, 246)`)
+- **Signature Brand Color:** **Xernerx Purple (`Xerple`)** (`#8b7cf6` / `rgb(139, 124, 246)`)
 - **Machine-Readable Manifest:** [`./brand/brand.json`](./brand/brand.json) (also hosted at [`https://www.xernerx.com/brand.json`](https://www.xernerx.com/brand.json))
 - **UI & Component Design System Specification:** [`../suite/DESIGN.md`](../suite/DESIGN.md) (*Modern Round Glassmorphism Pop*, Tailwind CSS v4 tokens, geometry, and `@xernerx/ui` primitives)
 
@@ -114,7 +114,7 @@ Every official Xernerx accent color has pre-rendered **Crest Logos** (`1250×125
 
 | Swatch | Icon | Color Name | Key | Hex | RGB | Crest Logo (`1250×1250`) | App Icon (`870×870`) | Wordmark Banner (`2000×990`) |
 | :---: | :---: | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
-| <img src="./brand/swatches/purple.svg" width="20" height="20" /> | <img src="./brand/icons/icon-purple.svg" width="28" height="28" /> | **Purple** *(Default)* | `purple` | `#8b7cf6` | `rgb(139, 124, 246)` | [SVG](./brand/logos/logo-purple.svg) · [PNG](./brand/logos/logo-purple.png) | [SVG](./brand/icons/icon-purple.svg) · [PNG](./brand/icons/icon-purple.png) · [ICO](./brand/icons/icon-purple.ico) | [SVG](./brand/banners/banner-purple.svg) · [PNG](./brand/banners/banner-purple.png) |
+| <img src="./brand/swatches/purple.svg" width="20" height="20" /> | <img src="./brand/icons/icon-purple.svg" width="28" height="28" /> | **Purple** *(Xerple — Default)* | `purple` | `#8b7cf6` | `rgb(139, 124, 246)` | [SVG](./brand/logos/logo-purple.svg) · [PNG](./brand/logos/logo-purple.png) | [SVG](./brand/icons/icon-purple.svg) · [PNG](./brand/icons/icon-purple.png) · [ICO](./brand/icons/icon-purple.ico) | [SVG](./brand/banners/banner-purple.svg) · [PNG](./brand/banners/banner-purple.png) |
 | <img src="./brand/swatches/violet.svg" width="20" height="20" /> | <img src="./brand/icons/icon-violet.svg" width="28" height="28" /> | **Violet** | `violet` | `#7c3aed` | `rgb(124, 58, 237)` | [SVG](./brand/logos/logo-violet.svg) · [PNG](./brand/logos/logo-violet.png) | [SVG](./brand/icons/icon-violet.svg) · [PNG](./brand/icons/icon-violet.png) · [ICO](./brand/icons/icon-violet.ico) | [SVG](./brand/banners/banner-violet.svg) · [PNG](./brand/banners/banner-violet.png) |
 | <img src="./brand/swatches/indigo.svg" width="20" height="20" /> | <img src="./brand/icons/icon-indigo.svg" width="28" height="28" /> | **Indigo** | `indigo` | `#6366f1` | `rgb(99, 102, 241)` | [SVG](./brand/logos/logo-indigo.svg) · [PNG](./brand/logos/logo-indigo.png) | [SVG](./brand/icons/icon-indigo.svg) · [PNG](./brand/icons/icon-indigo.png) · [ICO](./brand/icons/icon-indigo.ico) | [SVG](./brand/banners/banner-indigo.svg) · [PNG](./brand/banners/banner-indigo.png) |
 | <img src="./brand/swatches/cobalt.svg" width="20" height="20" /> | <img src="./brand/icons/icon-cobalt.svg" width="28" height="28" /> | **Cobalt** | `cobalt` | `#2563eb` | `rgb(37, 99, 235)` | [SVG](./brand/logos/logo-cobalt.svg) · [PNG](./brand/logos/logo-cobalt.png) | [SVG](./brand/icons/icon-cobalt.svg) · [PNG](./brand/icons/icon-cobalt.png) · [ICO](./brand/icons/icon-cobalt.ico) | [SVG](./brand/banners/banner-cobalt.svg) · [PNG](./brand/banners/banner-cobalt.png) |
@@ -144,29 +144,29 @@ Every official Xernerx accent color has pre-rendered **Crest Logos** (`1250×125
 
 ---
 
-## 🤖 Official Discord Applications Media Kit (`Virtue`, `YourApps`, `TDL`, `Zodiac` & `Metamorphosis`)
+## 🤖 Official Discord Bots Media Kit (`Virtue`, `YourApps`, `TDL`, `Zodiac` & `Metamorphosis`)
 
-Official first-party Discord applications developed by **Xernerx Studios** carry their own distinct visual identity, color palette, production imagery, and monochrome beta/canary assets in [`./brand/applications/`](./brand/applications) (and hosted at `https://www.xernerx.com/applications/<app>/`).
+Official first-party Discord bots developed by **Xernerx Studios** carry their own distinct visual identity, color palette, production imagery, and monochrome beta/canary assets in [`./brand/bots/`](./brand/bots) (hosted at `https://www.xernerx.com/bots/<bot>/` with live directory pages at `https://app.xernerx.com/bots/<bot>`).
 
-| Icon | Application | Slogan | Official Primary Color | Production Assets | Beta / Canary Assets |
+| Icon | Bot | Slogan | Official Primary Color | Production Assets | Beta / Canary Assets |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| <img src="./brand/applications/virtue/icon.png" width="44" height="44" alt="Virtue Icon" /> | **[Virtue](https://www.xernerx.com/applications/virtue)**<br /><sub>Global & Server Discord Leveling Bot (`1484880634844287138`)</sub> | *Track. Grow. Ascend.* | <img src="./brand/swatches/virtue-gold.svg" width="14" height="14" /> **Celestial Gold** (`#f59e0b`) | [Icon PNG](./brand/applications/virtue/icon.png) · [Icon ICO](./brand/applications/virtue/icon.ico) · [Banner PNG](./brand/applications/virtue/banner.png) | [Beta Icon PNG](./brand/applications/virtue/icon-beta.png) · [Beta Icon ICO](./brand/applications/virtue/icon-beta.ico) · [Beta Banner PNG](./brand/applications/virtue/banner-beta.png) |
-| <img src="./brand/applications/yourapps/icon.png" width="44" height="44" alt="YourApps Icon" /> | **[YourApps](https://www.xernerx.com/applications)**<br /><sub>Discord-Native Forms & Applications Bot (`619328560141697036`)</sub> | *Discord Forms & Applications* | <img src="./brand/swatches/yourapps-orange.svg" width="14" height="14" /> **Paper Plane Orange** (`#f97316`) | [Icon PNG](./brand/applications/yourapps/icon.png) · [Icon ICO](./brand/applications/yourapps/icon.ico) · [Banner PNG](./brand/applications/yourapps/banner.png) | [Beta Icon PNG](./brand/applications/yourapps/icon-beta.png) · [Beta Icon ICO](./brand/applications/yourapps/icon-beta.ico) · [Beta Banner PNG](./brand/applications/yourapps/banner-beta.png) |
-| <img src="./brand/applications/todo/icon.png" width="44" height="44" alt="To-Do List Bot Icon" /> | **[To-Do List Bot (TDL)](https://app.xernerx.com/bots/todo)**<br /><sub>Collaborative Discord Task Boards & Checklists (`782105629572464652`)</sub> | *Collaborative Discord Task Boards & Checklists* | <img src="./brand/swatches/todo-primary.svg" width="14" height="14" /> **TDL Leaf Green** (`#71cc2e`) | [Icon PNG](./brand/applications/todo/icon.png) · [Icon ICO](./brand/applications/todo/icon.ico) · [Banner PNG](./brand/applications/todo/banner.png) | [Beta Icon PNG](./brand/applications/todo/icon-beta.png) · [Beta Icon ICO](./brand/applications/todo/icon-beta.ico) · [Beta Banner PNG](./brand/applications/todo/banner-beta.png) |
-| <img src="./brand/applications/zodiac/icon.png" width="44" height="44" alt="Zodiac Icon" /> | **[Zodiac](https://app.xernerx.com/bots/zodiac)**<br /><sub>Daily Horoscopes, Sign Profiles & Cosmic Compatibility (`950251264095162418`)</sub> | *Daily Horoscopes & Astrology* | <img src="./brand/swatches/zodiac-primary.svg" width="14" height="14" /> **Zodiac Bronze** (`#8b520f`) | [Icon PNG](./brand/applications/zodiac/icon.png) · [Icon ICO](./brand/applications/zodiac/icon.ico) · [Banner PNG](./brand/applications/zodiac/banner.png) | [Beta Icon PNG](./brand/applications/zodiac/icon-beta.png) · [Beta Icon ICO](./brand/applications/zodiac/icon-beta.ico) · [Beta Banner PNG](./brand/applications/zodiac/banner-beta.png) |
-| <img src="./brand/applications/metamorphosis/icon.png" width="44" height="44" alt="Metamorphosis Icon" /> | **[Metamorphosis](https://app.xernerx.com/bots/metamorphosis)**<br /><sub>Dynamic Voice Channels & Community Automation (`881678826906730547`)</sub> | *Dynamic Voice & Community Automation* | <img src="./brand/swatches/metamorphosis-sky.svg" width="14" height="14" /> **Dialogue Sky Blue** (`#199fd9`) | [Icon PNG](./brand/applications/metamorphosis/icon.png) · [Icon ICO](./brand/applications/metamorphosis/icon.ico) · [Banner PNG](./brand/applications/metamorphosis/banner.png) | [Beta Icon PNG](./brand/applications/metamorphosis/icon-beta.png) · [Beta Icon ICO](./brand/applications/metamorphosis/icon-beta.ico) · [Beta Banner PNG](./brand/applications/metamorphosis/banner-beta.png) |
+| <img src="./brand/bots/virtue/icon.png" width="44" height="44" alt="Virtue Icon" /> | **[Virtue](https://app.xernerx.com/bots/virtue)**<br /><sub>Global & Server Discord Leveling Bot (`1484880634844287138`)</sub> | *Track. Grow. Ascend.* | <img src="./brand/swatches/virtue-gold.svg" width="14" height="14" /> **Celestial Gold** (`#f59e0b`) | [Icon PNG](./brand/bots/virtue/icon.png) · [Icon ICO](./brand/bots/virtue/icon.ico) · [Banner PNG](./brand/bots/virtue/banner.png) | [Beta Icon PNG](./brand/bots/virtue/icon-beta.png) · [Beta Icon ICO](./brand/bots/virtue/icon-beta.ico) · [Beta Banner PNG](./brand/bots/virtue/banner-beta.png) |
+| <img src="./brand/bots/yourapps/icon.png" width="44" height="44" alt="YourApps Icon" /> | **[YourApps](https://app.xernerx.com/bots/yourapps)**<br /><sub>Discord-Native Forms & Applications Bot (`619328560141697036`)</sub> | *Discord Forms & Applications* | <img src="./brand/swatches/yourapps-orange.svg" width="14" height="14" /> **Paper Plane Orange** (`#f97316`) | [Icon PNG](./brand/bots/yourapps/icon.png) · [Icon ICO](./brand/bots/yourapps/icon.ico) · [Banner PNG](./brand/bots/yourapps/banner.png) | [Beta Icon PNG](./brand/bots/yourapps/icon-beta.png) · [Beta Icon ICO](./brand/bots/yourapps/icon-beta.ico) · [Beta Banner PNG](./brand/bots/yourapps/banner-beta.png) |
+| <img src="./brand/bots/todo/icon.png" width="44" height="44" alt="To-Do List Bot Icon" /> | **[To-Do List Bot (TDL)](https://app.xernerx.com/bots/todo)**<br /><sub>Collaborative Discord Task Boards & Checklists (`782105629572464652`)</sub> | *Collaborative Discord Task Boards & Checklists* | <img src="./brand/swatches/todo-primary.svg" width="14" height="14" /> **TDL Leaf Green** (`#71cc2e`) | [Icon PNG](./brand/bots/todo/icon.png) · [Icon ICO](./brand/bots/todo/icon.ico) · [Banner PNG](./brand/bots/todo/banner.png) | [Beta Icon PNG](./brand/bots/todo/icon-beta.png) · [Beta Icon ICO](./brand/bots/todo/icon-beta.ico) · [Beta Banner PNG](./brand/bots/todo/banner-beta.png) |
+| <img src="./brand/bots/zodiac/icon.png" width="44" height="44" alt="Zodiac Icon" /> | **[Zodiac](https://app.xernerx.com/bots/zodiac)**<br /><sub>Daily Horoscopes, Sign Profiles & Cosmic Compatibility (`950251264095162418`)</sub> | *Daily Horoscopes & Astrology* | <img src="./brand/swatches/zodiac-primary.svg" width="14" height="14" /> **Zodiac Bronze** (`#8b520f`) | [Icon PNG](./brand/bots/zodiac/icon.png) · [Icon ICO](./brand/bots/zodiac/icon.ico) · [Banner PNG](./brand/bots/zodiac/banner.png) | [Beta Icon PNG](./brand/bots/zodiac/icon-beta.png) · [Beta Icon ICO](./brand/bots/zodiac/icon-beta.ico) · [Beta Banner PNG](./brand/bots/zodiac/banner-beta.png) |
+| <img src="./brand/bots/metamorphosis/icon.png" width="44" height="44" alt="Metamorphosis Icon" /> | **[Metamorphosis](https://app.xernerx.com/bots/metamorphosis)**<br /><sub>Dynamic Voice Channels & Community Automation (`881678826906730547`)</sub> | *Dynamic Voice & Community Automation* | <img src="./brand/swatches/metamorphosis-sky.svg" width="14" height="14" /> **Dialogue Sky Blue** (`#199fd9`) | [Icon PNG](./brand/bots/metamorphosis/icon.png) · [Icon ICO](./brand/bots/metamorphosis/icon.ico) · [Banner PNG](./brand/bots/metamorphosis/banner.png) | [Beta Icon PNG](./brand/bots/metamorphosis/icon-beta.png) · [Beta Icon ICO](./brand/bots/metamorphosis/icon-beta.ico) · [Beta Banner PNG](./brand/bots/metamorphosis/banner-beta.png) |
 
 ---
 
 ### 1. Virtue — Official Imagery & Color Palette
 
 <p align="center">
-  <img src="./brand/applications/virtue/banner.png" alt="Virtue Official Banner — Track. Grow. Ascend." width="100%" />
+  <img src="./brand/bots/virtue/banner.png" alt="Virtue Official Banner — Track. Grow. Ascend." width="100%" />
 </p>
 
 | Production Icon | Production Banner | Beta / Canary Icon | Beta / Canary Banner |
 | :---: | :---: | :---: | :---: |
-| <img src="./brand/applications/virtue/icon.png" alt="Virtue Icon" width="120" /> | <img src="./brand/applications/virtue/banner.png" alt="Virtue Banner" width="320" /> | <img src="./brand/applications/virtue/icon-beta.png" alt="Virtue Beta Icon" width="120" /> | <img src="./brand/applications/virtue/banner-beta.png" alt="Virtue Beta Banner" width="320" /> |
+| <img src="./brand/bots/virtue/icon.png" alt="Virtue Icon" width="120" /> | <img src="./brand/bots/virtue/banner.png" alt="Virtue Banner" width="320" /> | <img src="./brand/bots/virtue/icon-beta.png" alt="Virtue Beta Icon" width="120" /> | <img src="./brand/bots/virtue/banner-beta.png" alt="Virtue Beta Banner" width="320" /> |
 
 #### Virtue Color Tokens
 
@@ -182,12 +182,12 @@ Official first-party Discord applications developed by **Xernerx Studios** carry
 ### 2. YourApps — Official Imagery & Color Palette
 
 <p align="center">
-  <img src="./brand/applications/yourapps/banner.png" alt="YourApps Official Banner — Discord Forms & Applications" width="100%" />
+  <img src="./brand/bots/yourapps/banner.png" alt="YourApps Official Banner — Discord Forms & Applications" width="100%" />
 </p>
 
 | Production Icon | Production Banner | Beta / Canary Icon | Beta / Canary Banner |
 | :---: | :---: | :---: | :---: |
-| <img src="./brand/applications/yourapps/icon.png" alt="YourApps Icon" width="120" /> | <img src="./brand/applications/yourapps/banner.png" alt="YourApps Banner" width="320" /> | <img src="./brand/applications/yourapps/icon-beta.png" alt="YourApps Beta Icon" width="120" /> | <img src="./brand/applications/yourapps/banner-beta.png" alt="YourApps Beta Banner" width="320" /> |
+| <img src="./brand/bots/yourapps/icon.png" alt="YourApps Icon" width="120" /> | <img src="./brand/bots/yourapps/banner.png" alt="YourApps Banner" width="320" /> | <img src="./brand/bots/yourapps/icon-beta.png" alt="YourApps Beta Icon" width="120" /> | <img src="./brand/bots/yourapps/banner-beta.png" alt="YourApps Beta Banner" width="320" /> |
 
 #### YourApps Color Tokens
 
@@ -203,12 +203,12 @@ Official first-party Discord applications developed by **Xernerx Studios** carry
 ### 3. To-Do List Bot (TDL) — Official Imagery & Color Palette
 
 <p align="center">
-  <img src="./brand/applications/todo/banner.png" alt="To-Do List Bot (TDL) Official Banner" width="100%" />
+  <img src="./brand/bots/todo/banner.png" alt="To-Do List Bot (TDL) Official Banner" width="100%" />
 </p>
 
 | Production Icon | Production Banner | Beta / Canary Icon | Beta / Canary Banner |
 | :---: | :---: | :---: | :---: |
-| <img src="./brand/applications/todo/icon.png" alt="To-Do List Bot Icon" width="120" /> | <img src="./brand/applications/todo/banner.png" alt="To-Do List Bot Banner" width="320" /> | <img src="./brand/applications/todo/icon-beta.png" alt="To-Do List Bot Beta Icon" width="120" /> | <img src="./brand/applications/todo/banner-beta.png" alt="To-Do List Bot Beta Banner" width="320" /> |
+| <img src="./brand/bots/todo/icon.png" alt="To-Do List Bot Icon" width="120" /> | <img src="./brand/bots/todo/banner.png" alt="To-Do List Bot Banner" width="320" /> | <img src="./brand/bots/todo/icon-beta.png" alt="To-Do List Bot Beta Icon" width="120" /> | <img src="./brand/bots/todo/banner-beta.png" alt="To-Do List Bot Beta Banner" width="320" /> |
 
 #### To-Do List Bot (TDL) Color Tokens
 
@@ -225,12 +225,12 @@ Official first-party Discord applications developed by **Xernerx Studios** carry
 ### 4. Zodiac — Official Imagery & Color Palette
 
 <p align="center">
-  <img src="./brand/applications/zodiac/banner.png" alt="Zodiac Official Banner" width="100%" />
+  <img src="./brand/bots/zodiac/banner.png" alt="Zodiac Official Banner" width="100%" />
 </p>
 
 | Production Icon | Production Banner | Beta / Canary Icon | Beta / Canary Banner |
 | :---: | :---: | :---: | :---: |
-| <img src="./brand/applications/zodiac/icon.png" alt="Zodiac Icon" width="120" /> | <img src="./brand/applications/zodiac/banner.png" alt="Zodiac Banner" width="320" /> | <img src="./brand/applications/zodiac/icon-beta.png" alt="Zodiac Beta Icon" width="120" /> | <img src="./brand/applications/zodiac/banner-beta.png" alt="Zodiac Beta Banner" width="320" /> |
+| <img src="./brand/bots/zodiac/icon.png" alt="Zodiac Icon" width="120" /> | <img src="./brand/bots/zodiac/banner.png" alt="Zodiac Banner" width="320" /> | <img src="./brand/bots/zodiac/icon-beta.png" alt="Zodiac Beta Icon" width="120" /> | <img src="./brand/bots/zodiac/banner-beta.png" alt="Zodiac Beta Banner" width="320" /> |
 
 #### Zodiac Color Tokens
 
@@ -246,12 +246,12 @@ Official first-party Discord applications developed by **Xernerx Studios** carry
 ### 5. Metamorphosis — Official Imagery & Color Palette
 
 <p align="center">
-  <img src="./brand/applications/metamorphosis/banner.png" alt="Metamorphosis Official Banner" width="100%" />
+  <img src="./brand/bots/metamorphosis/banner.png" alt="Metamorphosis Official Banner" width="100%" />
 </p>
 
 | Production Icon | Production Banner | Beta / Canary Icon | Beta / Canary Banner |
 | :---: | :---: | :---: | :---: |
-| <img src="./brand/applications/metamorphosis/icon.png" alt="Metamorphosis Icon" width="120" /> | <img src="./brand/applications/metamorphosis/banner.png" alt="Metamorphosis Banner" width="320" /> | <img src="./brand/applications/metamorphosis/icon-beta.png" alt="Metamorphosis Beta Icon" width="120" /> | <img src="./brand/applications/metamorphosis/banner-beta.png" alt="Metamorphosis Beta Banner" width="320" /> |
+| <img src="./brand/bots/metamorphosis/icon.png" alt="Metamorphosis Icon" width="120" /> | <img src="./brand/bots/metamorphosis/banner.png" alt="Metamorphosis Banner" width="320" /> | <img src="./brand/bots/metamorphosis/icon-beta.png" alt="Metamorphosis Beta Icon" width="120" /> | <img src="./brand/bots/metamorphosis/banner-beta.png" alt="Metamorphosis Beta Banner" width="320" /> |
 
 #### Metamorphosis Color Tokens
 
@@ -277,7 +277,7 @@ Each open-source TypeScript SDK package in the Xernerx ecosystem has an assigned
 
 | Icon | Package | Scope | Assigned Color | Package Icon (`870×870`) | Package Banner (`1600×440`) |
 | :---: | :--- | :---: | :--- | :---: | :---: |
-| <img src="./brand/packages/icons/xernerx.svg" width="36" height="36" /> | **[`xernerx`](https://docs.xernerx.com/packages/xernerx)** | `XRX` | <img src="./brand/swatches/purple.svg" width="14" height="14" /> **Purple** (`#8b7cf6`) | [SVG](./brand/packages/icons/xernerx.svg) · [PNG](./brand/packages/icons/xernerx.png) · [ICO](./brand/packages/icons/xernerx.ico) | [SVG](./brand/packages/banners/xernerx.svg) · [PNG](./brand/packages/banners/xernerx.png) |
+| <img src="./brand/packages/icons/xernerx.svg" width="36" height="36" /> | **[`xernerx`](https://docs.xernerx.com/packages/xernerx)** | `XRX` | <img src="./brand/swatches/purple.svg" width="14" height="14" /> **Purple (Xerple)** (`#8b7cf6`) | [SVG](./brand/packages/icons/xernerx.svg) · [PNG](./brand/packages/icons/xernerx.png) · [ICO](./brand/packages/icons/xernerx.ico) | [SVG](./brand/packages/banners/xernerx.svg) · [PNG](./brand/packages/banners/xernerx.png) |
 | <img src="./brand/packages/icons/framework.svg" width="36" height="36" /> | **[`@xernerx/framework`](https://docs.xernerx.com/packages/@xernerx/framework)** | `XF` | <img src="./brand/swatches/indigo.svg" width="14" height="14" /> **Indigo** (`#6366f1`) | [SVG](./brand/packages/icons/framework.svg) · [PNG](./brand/packages/icons/framework.png) · [ICO](./brand/packages/icons/framework.ico) | [SVG](./brand/packages/banners/framework.svg) · [PNG](./brand/packages/banners/framework.png) |
 | <img src="./brand/packages/icons/commands.svg" width="36" height="36" /> | **[`@xernerx/commands`](https://docs.xernerx.com/packages/@xernerx/commands)** | `XC` | <img src="./brand/swatches/cyan.svg" width="14" height="14" /> **Cyan** (`#06b6d4`) | [SVG](./brand/packages/icons/commands.svg) · [PNG](./brand/packages/icons/commands.png) · [ICO](./brand/packages/icons/commands.ico) | [SVG](./brand/packages/banners/commands.svg) · [PNG](./brand/packages/banners/commands.png) |
 | <img src="./brand/packages/icons/extension-builder.svg" width="36" height="36" /> | **[`@xernerx/extension-builder`](https://docs.xernerx.com/packages/@xernerx/extension-builder)** | `XE` | <img src="./brand/swatches/gold.svg" width="14" height="14" /> **Gold** (`#f59e0b`) | [SVG](./brand/packages/icons/extension-builder.svg) · [PNG](./brand/packages/icons/extension-builder.png) · [ICO](./brand/packages/icons/extension-builder.ico) | [SVG](./brand/packages/banners/extension-builder.svg) · [PNG](./brand/packages/banners/extension-builder.png) |
@@ -288,7 +288,7 @@ Each open-source TypeScript SDK package in the Xernerx ecosystem has an assigned
 
 ### Visual Gallery — SDK Package Banners
 
-| `xernerx` (`XRX` · Purple `#8b7cf6`) | `@xernerx/framework` (`XF` · Indigo `#6366f1`) |
+| `xernerx` (`XRX` · Purple (Xerple) `#8b7cf6`) | `@xernerx/framework` (`XF` · Indigo `#6366f1`) |
 | :---: | :---: |
 | <img src="./brand/packages/banners/xernerx.svg" alt="xernerx banner" width="100%" /> | <img src="./brand/packages/banners/framework.svg" alt="@xernerx/framework banner" width="100%" /> |
 | **`@xernerx/commands` (`XC` · Cyan `#06b6d4`)** | **`@xernerx/extension-builder` (`XE` · Gold `#f59e0b`)** |
