@@ -31,7 +31,7 @@
 | Platform                | URL                                                  | Description                                                                                                                        |
 | :---------------------- | :--------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | **Xernerx Home**        | [`xernerx.com`](https://xernerx.com)                 | Official showcase, applications catalog, legal & security governance, and [Desktop Client download](https://xernerx.com/download). |
-| **Xernerx App**         | [`app.xernerx.com`](https://app.xernerx.com)         | Unified dashboard, bot & server directory explorer, Virtue leveling studio, leaderboards, and live `/overlay`.                     |
+| **Xernerx App**         | [`app.xernerx.com`](https://app.xernerx.com)         | Unified dashboard, bot & server directory explorer, Virtue leveling & YourApps forms studios, leaderboards, and live `/overlay`.   |
 | **Account Hub**         | [`account.xernerx.com`](https://account.xernerx.com) | Identity & privacy settings (`public` / `limited` / `private`), OAuth connections, QR sign-in, and billing history.                |
 | **Developer Portal**    | [`portal.xernerx.com`](https://portal.xernerx.com)   | Team organizations, bot publishing, slash command synchronization, API tokens, and signed HMAC-SHA256 webhooks.                    |
 | **Documentation**       | [`docs.xernerx.com`](https://docs.xernerx.com)       | Interactive REST API v1 playground, WebSocket RPC gateway specs, CDN streaming guides, and TypeDoc package references.             |
@@ -66,7 +66,7 @@ All public developer packages published by **Xernerx Studios** on npm are open-s
 ## 🤖 Official Discord Applications
 
 - **[Virtue](https://xernerx.com/applications/virtue)** — Next-generation global & per-server Discord leveling bot featuring Text & Voice XP progression, Dynamic Hoist Roles, `/boost` multipliers, automated cycle resets (`daily`, `weekly`, `monthly`, `yearly`), and customizable `/level` rank cards.
-- **[YourApps](https://xernerx.com/applications)** — Discord-native forms, staff recruitment, and community applications bot featuring interactive modals, resumable drafts, Apply panels, and automated role & archive review workflows.
+- **[YourApps](https://xernerx.com/applications)** — Discord-native forms, staff recruitment, and community applications bot featuring 13-type Modals V2 & conditional web forms, resumable drafts, auto-synced Components V2 Apply panels, consensus voting, private interview rooms, and automated role & archive workflows.
 - **[To-Do List Bot](https://xernerx.com/applications)** — Collaborative personal & server task boards directly inside Discord.
 - **[Metamorphosis](https://xernerx.com/applications)** — Automated ephemeral "Join-to-Create" dynamic voice channels and room management.
 - **[Zodiac](https://xernerx.com/applications)** — Daily horoscopes, astrological charts, and server compatibility insights.
